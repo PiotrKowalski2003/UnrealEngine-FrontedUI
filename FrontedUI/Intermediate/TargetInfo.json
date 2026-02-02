@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FrontedUI",
+			"Path": "..\\Source\\FrontedUI.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FrontedUIEditor",
+			"Path": "..\\Source\\FrontedUIEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

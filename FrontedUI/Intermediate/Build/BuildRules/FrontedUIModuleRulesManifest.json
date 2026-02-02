@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\piotr\\Documents\\GitHub\\Udemy\\UnrealEngine\\UnrealEngine-FrontedUI\\FrontedUI\\Source\\FrontedUI\\FrontedUI.Build.cs",
+		"C:\\Users\\piotr\\Documents\\GitHub\\Udemy\\UnrealEngine\\UnrealEngine-FrontedUI\\FrontedUI\\Source\\FrontedUI.Target.cs",
+		"C:\\Users\\piotr\\Documents\\GitHub\\Udemy\\UnrealEngine\\UnrealEngine-FrontedUI\\FrontedUI\\Source\\FrontedUIEditor.Target.cs"
+	],
+	"EngineVersion": "5.7.2"
+}
