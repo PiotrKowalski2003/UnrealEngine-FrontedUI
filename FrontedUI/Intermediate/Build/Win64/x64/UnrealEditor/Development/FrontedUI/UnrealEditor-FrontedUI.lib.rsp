@@ -7,7 +7,9 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:/Users/piotr/Documents/GitHub/Udemy/UnrealEngine/UnrealEngine-FrontedUI/FrontedUI/Intermediate/Build/Win64/x64/FrontedUIEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"C:/Users/piotr/Documents/GitHub/Udemy/UnrealEngine/UnrealEngine-FrontedUI/FrontedUI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FrontedUI/Module.FrontedUI.gen.cpp.obj"
 "C:/Users/piotr/Documents/GitHub/Udemy/UnrealEngine/UnrealEngine-FrontedUI/FrontedUI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FrontedUI/FrontedUI.cpp.obj"
 "C:/Users/piotr/Documents/GitHub/Udemy/UnrealEngine/UnrealEngine-FrontedUI/FrontedUI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FrontedUI/PerModuleInline.gen.cpp.obj"
+"C:/Users/piotr/Documents/GitHub/Udemy/UnrealEngine/UnrealEngine-FrontedUI/FrontedUI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FrontedUI/FrontedPlayerController.cpp.obj"
 "C:/Users/piotr/Documents/GitHub/Udemy/UnrealEngine/UnrealEngine-FrontedUI/FrontedUI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FrontedUI/Default.rc2.res"
 /OUT:"C:/Users/piotr/Documents/GitHub/Udemy/UnrealEngine/UnrealEngine-FrontedUI/FrontedUI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FrontedUI/UnrealEditor-FrontedUI.lib"
