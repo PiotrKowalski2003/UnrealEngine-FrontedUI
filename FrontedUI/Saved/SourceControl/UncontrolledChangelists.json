@@ -1,0 +1,13 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/piotr/Documents/GitHub/Udemy/UnrealEngine/UnrealEngine-FrontedUI/FrontedUI/Content/Maps/FrontedTestMap.umap",
+				"C:/Users/piotr/Documents/GitHub/Udemy/UnrealEngine/UnrealEngine-FrontedUI/FrontedUI/Content/ImportedAssets/LevelVisuals/MI_Floor.uasset"
+			]
+		}
+	]
+}

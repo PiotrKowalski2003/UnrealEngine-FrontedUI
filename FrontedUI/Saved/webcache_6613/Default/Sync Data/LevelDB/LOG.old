@@ -1,2 +1,3 @@
-2026/02/02-20:39:23.476 6b6c Creating DB C:\Users\piotr\Documents\GitHub\Udemy\UnrealEngine\UnrealEngine-FrontedUI\FrontedUI\Saved\webcache_6613\Default\Sync Data\LevelDB since it was missing.
-2026/02/02-20:39:23.490 6b6c Reusing MANIFEST C:\Users\piotr\Documents\GitHub\Udemy\UnrealEngine\UnrealEngine-FrontedUI\FrontedUI\Saved\webcache_6613\Default\Sync Data\LevelDB/MANIFEST-000001
+2026/02/03-18:24:37.436 1e3c Reusing MANIFEST C:\Users\piotr\Documents\GitHub\Udemy\UnrealEngine\UnrealEngine-FrontedUI\FrontedUI\Saved\webcache_6613\Default\Sync Data\LevelDB/MANIFEST-000001
+2026/02/03-18:24:37.437 1e3c Recovering log #3
+2026/02/03-18:24:37.438 1e3c Reusing old log C:\Users\piotr\Documents\GitHub\Udemy\UnrealEngine\UnrealEngine-FrontedUI\FrontedUI\Saved\webcache_6613\Default\Sync Data\LevelDB/000003.log 
