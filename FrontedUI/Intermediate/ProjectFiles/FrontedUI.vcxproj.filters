@@ -48,6 +48,9 @@
     <ClCompile Include="..\..\Source\FrontedUI\Private\Controllers\FrontedPlayerController.cpp">
       <Filter>Source\FrontedUI\Private\Controllers</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\FrontedUI\Private\FrontendGameplayTags.cpp">
+      <Filter>Source\FrontedUI\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\FrontedUI\Public">
       <UniqueIdentifier>{397FD8E1-912F-3784-8810-2559CF71F6BB}</UniqueIdentifier>
     </Filter>
@@ -56,6 +59,9 @@
     </Filter>
     <ClInclude Include="..\..\Source\FrontedUI\Public\Controllers\FrontedPlayerController.h">
       <Filter>Source\FrontedUI\Public\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FrontedUI\Public\FrontendGameplayTags.h">
+      <Filter>Source\FrontedUI\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

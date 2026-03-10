@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FrontedUIModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d499677f8122ab5429a0614e3e7791475573d7d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c31fff08737441b73e4ce0340d5e17d731cb2ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("FrontedUIModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FrontedUIModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

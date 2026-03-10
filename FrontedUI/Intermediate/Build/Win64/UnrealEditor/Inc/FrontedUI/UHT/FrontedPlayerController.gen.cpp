@@ -53,11 +53,14 @@ struct Z_Construct_UClass_AFrontedPlayerController_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n * \n */" },
+		{ "Comment", "/**\n * Custom PlayerController class to handle initialization logic,\n * such as setting the initial camera view on possession.\n */" },
 #endif
 		{ "HideCategories", "Collision Rendering Transformation" },
 		{ "IncludePath", "Controllers/FrontedPlayerController.h" },
 		{ "ModuleRelativePath", "Public/Controllers/FrontedPlayerController.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Custom PlayerController class to handle initialization logic,\nsuch as setting the initial camera view on possession." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -109,10 +112,10 @@ AFrontedPlayerController::~AFrontedPlayerController() {}
 struct Z_CompiledInDeferFile_FID_Users_piotr_Documents_GitHub_Udemy_UnrealEngine_UnrealEngine_FrontedUI_FrontedUI_Source_FrontedUI_Public_Controllers_FrontedPlayerController_h__Script_FrontedUI_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AFrontedPlayerController, AFrontedPlayerController::StaticClass, TEXT("AFrontedPlayerController"), &Z_Registration_Info_UClass_AFrontedPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFrontedPlayerController), 3946946016U) },
+		{ Z_Construct_UClass_AFrontedPlayerController, AFrontedPlayerController::StaticClass, TEXT("AFrontedPlayerController"), &Z_Registration_Info_UClass_AFrontedPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFrontedPlayerController), 59751790U) },
 	};
 }; // Z_CompiledInDeferFile_FID_Users_piotr_Documents_GitHub_Udemy_UnrealEngine_UnrealEngine_FrontedUI_FrontedUI_Source_FrontedUI_Public_Controllers_FrontedPlayerController_h__Script_FrontedUI_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_piotr_Documents_GitHub_Udemy_UnrealEngine_UnrealEngine_FrontedUI_FrontedUI_Source_FrontedUI_Public_Controllers_FrontedPlayerController_h__Script_FrontedUI_3128145338{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_piotr_Documents_GitHub_Udemy_UnrealEngine_UnrealEngine_FrontedUI_FrontedUI_Source_FrontedUI_Public_Controllers_FrontedPlayerController_h__Script_FrontedUI_2440890742{
 	TEXT("/Script/FrontedUI"),
 	Z_CompiledInDeferFile_FID_Users_piotr_Documents_GitHub_Udemy_UnrealEngine_UnrealEngine_FrontedUI_FrontedUI_Source_FrontedUI_Public_Controllers_FrontedPlayerController_h__Script_FrontedUI_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_piotr_Documents_GitHub_Udemy_UnrealEngine_UnrealEngine_FrontedUI_FrontedUI_Source_FrontedUI_Public_Controllers_FrontedPlayerController_h__Script_FrontedUI_Statics::ClassInfo),
 	nullptr, 0,
