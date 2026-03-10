@@ -1,5 +1,9 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.FrontedUI.gen.cpp.obj": [
+			"FrontedPlayerController.gen.cpp.obj",
+			"FrontedUI.init.gen.cpp.obj"
+		]
 	}
 }

@@ -3,7 +3,8 @@
 	{
 		"Module.FrontedUI.gen.cpp.obj": [
 			"FrontedPlayerController.gen.cpp.obj",
-			"FrontedUI.init.gen.cpp.obj"
+			"FrontedUI.init.gen.cpp.obj",
+			"Widget_PrimaryLayout.gen.cpp.obj"
 		]
 	}
 }

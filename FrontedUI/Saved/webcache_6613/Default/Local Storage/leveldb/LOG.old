@@ -1,3 +1,5 @@
-2026/03/10-18:19:42.241 8008 Reusing MANIFEST C:\Users\piotr\Documents\GitHub\Udemy\UnrealEngine\UnrealEngine-FrontedUI\FrontedUI\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
-2026/03/10-18:19:42.249 8008 Recovering log #3
-2026/03/10-18:19:42.252 8008 Reusing old log C:\Users\piotr\Documents\GitHub\Udemy\UnrealEngine\UnrealEngine-FrontedUI\FrontedUI\Saved\webcache_6613\Default\Local Storage\leveldb/000003.log 
+2026/03/10-18:46:01.413 49d4 Reusing MANIFEST C:\Users\piotr\Documents\GitHub\Udemy\UnrealEngine\UnrealEngine-FrontedUI\FrontedUI\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
+2026/03/10-18:46:01.418 49d4 Recovering log #3
+2026/03/10-18:46:01.421 49d4 Reusing old log C:\Users\piotr\Documents\GitHub\Udemy\UnrealEngine\UnrealEngine-FrontedUI\FrontedUI\Saved\webcache_6613\Default\Local Storage\leveldb/000003.log 
+2026/03/10-18:49:10.719 7d30 Level-0 table #5: started
+2026/03/10-18:49:10.730 7d30 Level-0 table #5: 58091 bytes OK

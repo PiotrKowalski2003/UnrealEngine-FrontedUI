@@ -51,6 +51,12 @@
     <ClCompile Include="..\..\Source\FrontedUI\Private\FrontendGameplayTags.cpp">
       <Filter>Source\FrontedUI\Private</Filter>
     </ClCompile>
+    <Filter Include="Source\FrontedUI\Private\Widgets">
+      <UniqueIdentifier>{92AAAF1C-99B2-38FA-8734-DA156EC09FA8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FrontedUI\Private\Widgets\Widget_PrimaryLayout.cpp">
+      <Filter>Source\FrontedUI\Private\Widgets</Filter>
+    </ClCompile>
     <Filter Include="Source\FrontedUI\Public">
       <UniqueIdentifier>{397FD8E1-912F-3784-8810-2559CF71F6BB}</UniqueIdentifier>
     </Filter>
@@ -62,6 +68,12 @@
     </ClInclude>
     <ClInclude Include="..\..\Source\FrontedUI\Public\FrontendGameplayTags.h">
       <Filter>Source\FrontedUI\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\FrontedUI\Public\Widgets">
+      <UniqueIdentifier>{46B27057-EA6B-3ED4-B06A-E443E5222FC0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FrontedUI\Public\Widgets\Widget_PrimaryLayout.h">
+      <Filter>Source\FrontedUI\Public\Widgets</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
