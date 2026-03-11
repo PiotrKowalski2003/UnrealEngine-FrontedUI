@@ -31,7 +31,13 @@ struct Z_Construct_UFunction_UWidget_PrimaryLayout_RegisterWidgetStack_Statics
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/** * Registers a widget container into the map. Exposed to Blueprints for setup in the UMG designer. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Widgets/Widget_PrimaryLayout.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Registers a widget container into the map. Exposed to Blueprints for setup in the UMG designer." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InStackTag_MetaData[] = {
 		{ "Categories", "Frontend.WidgetStack" },
@@ -119,15 +125,24 @@ struct Z_Construct_UClass_UWidget_PrimaryLayout_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n * \n */" },
+		{ "Comment", "/**\n * The base class for the main UI layout.\n * Manages multiple \"stacks\" (e.g., HUD, Menu, Modal) indexed by Gameplay Tags.\n */" },
 #endif
 		{ "DisableNaiveTick", "" },
 		{ "IncludePath", "Widgets/Widget_PrimaryLayout.h" },
 		{ "ModuleRelativePath", "Public/Widgets/Widget_PrimaryLayout.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "The base class for the main UI layout.\nManages multiple \"stacks\" (e.g., HUD, Menu, Modal) indexed by Gameplay Tags." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RegisteredWidgetStackMap_MetaData[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/** * Runtime map of tags to widget containers. \n\x09 * Marked 'Transient' so it isn't saved to disk and starts fresh each session.\n\x09 */" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/Widgets/Widget_PrimaryLayout.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Runtime map of tags to widget containers.\nMarked 'Transient' so it isn't saved to disk and starts fresh each session." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -142,7 +157,7 @@ struct Z_Construct_UClass_UWidget_PrimaryLayout_Statics
 	};
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UWidget_PrimaryLayout_RegisterWidgetStack, "RegisterWidgetStack" }, // 380321074
+		{ &Z_Construct_UFunction_UWidget_PrimaryLayout_RegisterWidgetStack, "RegisterWidgetStack" }, // 1874488671
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -204,10 +219,10 @@ UWidget_PrimaryLayout::~UWidget_PrimaryLayout() {}
 struct Z_CompiledInDeferFile_FID_Users_piotr_Documents_GitHub_Udemy_UnrealEngine_UnrealEngine_FrontedUI_FrontedUI_Source_FrontedUI_Public_Widgets_Widget_PrimaryLayout_h__Script_FrontedUI_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UWidget_PrimaryLayout, UWidget_PrimaryLayout::StaticClass, TEXT("UWidget_PrimaryLayout"), &Z_Registration_Info_UClass_UWidget_PrimaryLayout, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UWidget_PrimaryLayout), 3549803353U) },
+		{ Z_Construct_UClass_UWidget_PrimaryLayout, UWidget_PrimaryLayout::StaticClass, TEXT("UWidget_PrimaryLayout"), &Z_Registration_Info_UClass_UWidget_PrimaryLayout, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UWidget_PrimaryLayout), 1653639782U) },
 	};
 }; // Z_CompiledInDeferFile_FID_Users_piotr_Documents_GitHub_Udemy_UnrealEngine_UnrealEngine_FrontedUI_FrontedUI_Source_FrontedUI_Public_Widgets_Widget_PrimaryLayout_h__Script_FrontedUI_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_piotr_Documents_GitHub_Udemy_UnrealEngine_UnrealEngine_FrontedUI_FrontedUI_Source_FrontedUI_Public_Widgets_Widget_PrimaryLayout_h__Script_FrontedUI_159738114{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_piotr_Documents_GitHub_Udemy_UnrealEngine_UnrealEngine_FrontedUI_FrontedUI_Source_FrontedUI_Public_Widgets_Widget_PrimaryLayout_h__Script_FrontedUI_2437214424{
 	TEXT("/Script/FrontedUI"),
 	Z_CompiledInDeferFile_FID_Users_piotr_Documents_GitHub_Udemy_UnrealEngine_UnrealEngine_FrontedUI_FrontedUI_Source_FrontedUI_Public_Widgets_Widget_PrimaryLayout_h__Script_FrontedUI_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_piotr_Documents_GitHub_Udemy_UnrealEngine_UnrealEngine_FrontedUI_FrontedUI_Source_FrontedUI_Public_Widgets_Widget_PrimaryLayout_h__Script_FrontedUI_Statics::ClassInfo),
 	nullptr, 0,

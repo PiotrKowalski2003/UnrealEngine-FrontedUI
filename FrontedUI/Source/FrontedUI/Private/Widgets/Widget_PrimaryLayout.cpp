@@ -1,31 +1,34 @@
 // Piotr Kowalski All Rights Reserved
 
 #include "Widgets/Widget_PrimaryLayout.h"
+#include "FrontendDebugHelper.h"
 
-/** * Retrieves a specific widget container (stack) associated with a given Gameplay Tag.
- * Uses 'checkf' to halt execution if the tag isn't found, preventing null pointer crashes later.
+/** * Locates a UI container using a Gameplay Tag.
+ * checkf acts as a 'hard' developer-only guard to ensure the UI is set up correctly in the Editor.
  */
 UCommonActivatableWidgetContainerBase* UWidget_PrimaryLayout::FindWidgetStackByTag(const FGameplayTag& InTag) const
 {
-	// Ensure the tag exists in our map; if not, crash with a helpful error message (Debug/Development only)
+	// Halt execution if the requested stack isn't in the map (usually means a tag was missed in the UMG setup)
 	checkf(RegisteredWidgetStackMap.Contains(InTag), TEXT("Can not find the widget stack by the tag %s"), *InTag.ToString());
     
-	// Return the pointer to the container associated with this tag
 	return RegisteredWidgetStackMap.FindRef(InTag);
 }
 
-/** * Maps a UI container (like a Stack or Overlay) to a specific Gameplay Tag.
- * This allows us to find the UI layer by its "Name" (Tag) rather than a direct reference.
+/** * Stores a reference to a UI container (like a Stack) associated with a specific Tag.
+ * This happens at runtime, allowing for a decoupled, tag-based UI management system.
  */
 void UWidget_PrimaryLayout::RegisterWidgetStack(UPARAM(meta= (Categories = "Frontend.WidgetStack")) FGameplayTag InStackTag, UCommonActivatableWidgetContainerBase* InStack)
 {
-	// Only register during actual gameplay, not while editing in the UMG Designer
+	// Skip registration in the UMG Designer to prevent cluttering logs or causing editor-only issues
 	if (!IsDesignTime())
 	{
-		// Add the stack to our map if it hasn't been registered yet
+		// Check for duplicates to avoid unnecessary map operations
 		if (!RegisteredWidgetStackMap.Contains(InStackTag))
 		{
 			RegisteredWidgetStackMap.Add(InStackTag, InStack);
+          
+			// Debug output to the screen and log to confirm the UI layer is ready for use
+			Debug::Print(TEXT("Widget Stack Registered under the tag ") + InStackTag.ToString());
 		}
 	}
 }

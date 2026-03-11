@@ -272,6 +272,7 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\FrontedUI\Public\Controllers\FrontedPlayerController.h"/>
+    <ClInclude Include="..\..\Source\FrontedUI\Public\FrontendDebugHelper.h" />
     <ClInclude Include="..\..\Source\FrontedUI\Public\FrontendGameplayTags.h"/>
     <ClInclude Include="..\..\Source\FrontedUI\Public\Widgets\Widget_PrimaryLayout.h"/>
   </ItemGroup>
